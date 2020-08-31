@@ -3,15 +3,15 @@ This repository contains the source code to replicate the case study presented i
 
 ## Requirements
 The source code is written in ```Python 3.6``` and it requires the following packages:
-*`CASADI` (<https://web.casadi.org/docs/#document-install>)
-*`numpy`
-*`pandas`
-*`matplotlib`
-*`sklearn`
-*`scipy`
+* `CASADI` (<https://web.casadi.org/docs/#document-install>)
+* `numpy`
+* `pandas`
+* `matplotlib`
+* `sklearn`
+* `scipy`
 
 ## Reproducibility
-To replicate the case study presented in the article, execute ```full_cycle.py```. At the end of its computation, you will find, for each value of \phi, a folder that contains the corresponding results for each patient (i.e. for \phi=50 and patient=*patient_1* the folder is *datasets/simulations/50/patient_1.csv*). 
+To replicate the case study presented in the article, execute ```full_cycle.py```. At the end of its computation, you will find, for each value of phi, a folder that contains the corresponding results for each patient (i.e. for phi=50 and patient=*patient_1* the folder is *datasets/simulations/50/patient_1.csv*). 
 In each result file you will find the following columns:
 1. Number of measured CSCs.
 1. Estimated decay (net growth rate) of CSCs (1/day).
